@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>twittler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="data.js"></script>
+</head>
+<body>
+  <!-- 여기에 HTML 구조를 작성하세요. 아래 코드는 예제이며, 얼마든지 바꿀 수 있습니다 -->
+  <div id="greeting">Twittler</div>
+  <div class="fisrt_section">
+  <div id ="login-interface">
+    <div id="Tweet-interface"></div>
+    <span class="username">Username :</span>
+    <input type="text" id="username_written" placeholder=" 아이디를 입력해주세요 ">
+    <p></p>
+    <span class="message">&nbsp;&nbsp;Message : </span>
+    <input type="text" id="message_written" placeholder=" 메시지를 입력해주세요 ">
+    <div class="button"></div>
+  </div>
+  <p>
+    <button id="tweetButton" class ="button for tweet">
+      <b>Tweet!</b>
+    </button>
+    <button id="tweetButton" class ="button for tweet">
+      <b>whats new?</b>
+    </button>
+    <button id="tweetButton" class ="button for tweet">
+      <b>Return</b>
+    </button>
+  </p>
+</div>
+
+<div class = "message_section" id ="Tweet_message">
+</div>
+  <div class="contaner" id="third">
+    <div class="content">
+      <p class="date">2021-01-01</p>
+      <p class="id"><span class="sub_id">Kim</span></p>
+      <p class="comment">Today is a Big Day!</p>
+    </div>
+    <hr>
+    <div class="content">
+      <p class="date">2021-01-01</p>
+      <p class="id"><span class="sub_id">LEE</span></p>
+      <p class="comment">Hello!~</p>
+    </div>
+    <hr>
+    <div class="content">
+      <p class="date">2021-01-01</p>
+      <p class="id"><span class="sub_id">CHOI</span></p>
+      <p class="comment">Where are u from?</p>
+    </div>
+    <hr>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

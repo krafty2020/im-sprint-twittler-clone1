@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'SF_IceLemon';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_IceLemon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#greeting {
+  font-size: 3em;
+  font-family: 'SF_IceLemon';
+  font-weight: bold;
+  border: 2px solid rgb(174, 199, 255);
+  border-radius: 1em;
+  color: white;
+  background-color: #eee;
+  text-shadow: 0 0 5px rgb(55, 187, 228);
+  text-align: center;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+#username_written {
+  width: 20%;
+  height:30px;
+  font-size:15px;
+}
+
+#message_written{
+ width: 50%;
+ height: 70px;
+}
+
+#tweetButton{
+  display: inline-block;
+  padding: 10px 30px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+#login-interface {
+  list-style: none;
+  font-size: 1.5em;
+  font-family: 'Roboto Condensed', sans-serif;;
+  font-weight: bold;
+  border: 2px 0px 2px 0px solid white;
+  color: white;
+  background-color: rgb(107, 189, 228);
+  text-shadow: 0 0 5px #333;
+  text-align: left;
+  margin: 0.3em 0em 0.3em 0em;
+  padding: 0.5em;
+}
+#Tweet-interface {
+  background-color: rgb(233, 230, 236);
+  /* text-align: center; */
+  
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contaner{
+  width: 100%;
+  padding: 1em;
+}
+#first{
+  background-color: rgb(75, 191, 236);
+  color: white;
+  margin-bottom: 20px;
+}
+
+#first > #name{
+  width: 30%;
+  height: 40px;
+}
+#first > #message{
+  width: 80%;
+  height: 80px;
+}
+#first > .btn{
+  width: 80px;
+  height: 40px;
+}
+
+#second{
+  background-color: rgb(34, 68, 180);
+}
+#second > .btn{
+  width: 180px;
+  height: 60px;
+}
+
+#third{
+  background-color: rgb(214, 216, 214);
+  padding-left: 4.5em;
+  padding-right: 4.5em;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+.content > .date{
+  align-self: flex-end;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.content > .id{
+  font-size: 25px;
+  margin-bottom: 0.3em;
+  margin-top: 0px;
+}
+.content > .comment{
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.sub_id:hover{
+  color: rgb(66, 184, 231);
+  cursor: pointer;
+}
